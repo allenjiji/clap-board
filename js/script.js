@@ -56,7 +56,7 @@ $(function () {
     page.homepage_generator = function (data) {
         //console.log(data);
         $obj.sendRequest(index_snippet, function (html) {
-            console.log(data);
+            //console.log(data);
             actual_html = '';
             for (i = 0; i < 50; i++) {
                 var new_html = replacer('film_name', data['Movie Name'][i], html);
@@ -74,7 +74,7 @@ $(function () {
         }, false);
     };
     page.review_page_generator = function () {
-        console.log("hello");
+        //console.log("hello");
         $obj.sendRequest(review_snippet, function (html) {
             insert_code('#main-content', html);
             showloading('#review-content');
@@ -91,7 +91,7 @@ $(function () {
 
     page.hindi = function(){
         scrapped_json_url = hindi;
-        console.log('hindi');
+        //console.log('hindi');
         page.homepage_generator_starter();
     }
     page.malayalam = function(){
