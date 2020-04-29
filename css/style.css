@@ -11,7 +11,9 @@
 
 .navbar-brand{
   padding: 15px;
+  padding-left: 0px;
   margin: 5px ;
+  margin-left: 0px;
 }
 .navbar-brand > .heading{
   font-size: 2em   !important;
@@ -23,6 +25,19 @@
   letter-spacing: .8em;
   line-height: 0em;
 }
+@media screen and (max-width: 450px) {
+  .navbar-brand > .heading{
+    font-size: 1.5em   !important;
+    font-family: 'Monoton', cursive;
+  }
+  .navbar-brand > .subtitle{
+    font-size: .5em   !important;
+    font-family: 'Sen', sans-serif;
+    letter-spacing: .45em;
+    line-height: 0em;
+  }
+}
+
 
 .box{
   margin-top: 50px ;
