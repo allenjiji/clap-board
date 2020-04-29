@@ -16,7 +16,7 @@ $(function () {
     //var malayalam = '../server/malayalam.json';
     var malayalam = 'https://allenjiji.github.io/clap_board/server/malayalam.json';
     //var english = '../server/english.json';
-    var english = 'https://allenjiji.github.io/clapb_oard/server/english.json';
+    var english = 'https://allenjiji.github.io/clap_board/server/english.json';
     //var tamil = '../server/tamil.json';
     var tamil = 'https://allenjiji.github.io/clap_board/server/tamil.json';
 
