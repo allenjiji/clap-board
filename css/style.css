@@ -12,8 +12,16 @@
 .navbar-brand{
   padding: 15px;
   margin: 5px ;
+}
+.navbar-brand > .heading{
   font-size: 2em   !important;
   font-family: 'Monoton', cursive;
+}
+.navbar-brand > .subtitle{
+  font-size: .5em   !important;
+  font-family: 'Sen', sans-serif;
+  letter-spacing: .8em;
+  line-height: 0em;
 }
 
 .box{
