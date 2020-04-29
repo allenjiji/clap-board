@@ -12,21 +12,21 @@ $(function () {
 (function (global) {
 
     //var hindi = '../server/hindi.json';
-    var hindi = 'https://allenjiji.github.io/clapboard/server/hindi.json';
+    var hindi = 'https://allenjiji.github.io/clap_board/server/hindi.json';
     //var malayalam = '../server/malayalam.json';
-    var malayalam = 'https://allenjiji.github.io/clapboard/server/malayalam.json';
+    var malayalam = 'https://allenjiji.github.io/clap_board/server/malayalam.json';
     //var english = '../server/english.json';
-    var english = 'https://allenjiji.github.io/clapboard/server/english.json';
+    var english = 'https://allenjiji.github.io/clapb_oard/server/english.json';
     //var tamil = '../server/tamil.json';
-    var tamil = 'https://allenjiji.github.io/clapboard/server/tamil.json';
+    var tamil = 'https://allenjiji.github.io/clap_board/server/tamil.json';
 
     var page = {}
 
     var scrapped_json_url = '';
     //var index_snippet = '../snippets/main-page-snippet.html';
-    var index_snippet = 'https://allenjiji.github.io/clapboard/snippets/main-page-snippet.html';
+    var index_snippet = 'https://allenjiji.github.io/clap_board/snippets/main-page-snippet.html';
     //var review_snippet = '../snippets/review_page.html';
-    var review_snippet = 'https://allenjiji.github.io/clapboard/snippets/review_page.html';
+    var review_snippet = 'https://allenjiji.github.io/clap_board/snippets/review_page.html';
 
 
 
