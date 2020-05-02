@@ -64,8 +64,8 @@ $(function () {
                 new_html = replacer('duration', data['Release and Duration'][i], new_html);
                 new_html = replacer('page_link', 'https://www.google.com/search?q=' + data['Movie Name'][i] + '%20movie', new_html);
                 new_html = replacer('actors_list', data['Star Cast'][i], new_html);
-                new_html = replacer('songs_link', 'https://www.google.com/search?q=' + data['Movie Name'][i] + '%20malayalam%20movie%20songs', new_html);
-                new_html = replacer('trailer_link', 'https://www.youtube.com/results?search_query=' + data['Movie Name'][i] + ' malayalam+movie+official+trailer', new_html);
+                new_html = replacer('songs_link', 'https://www.google.com/search?q=' + data['Movie Name'][i] + '%20movie%20songs', new_html);
+                new_html = replacer('trailer_link', 'https://www.youtube.com/results?search_query=' + data['Movie Name'][i] + 'movie+official+trailer', new_html);
                 actual_html += new_html;
                 //console.log(new_html);
 
