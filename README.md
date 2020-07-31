@@ -4,4 +4,4 @@
 - It uses Only HTML CSS and JS .
 - No backend Programming Involved in this.
 
-## The Link to the Site:  allenjiji.github.io/clap-board 
+## The Link to the Site:  [Click here](allenjiji.github.io/clap-board) 
