@@ -7,8 +7,6 @@ $(function () {
   });
 });
 
-
-
 (function (global) {
 
     //var hindi = '../server/hindi.json';
